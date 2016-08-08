@@ -117,7 +117,8 @@ namespace BankAccount
             try
             {
                 Console.WriteLine("How much would you like to deposit?");
-                   Deposit = double.Parse(Console.ReadLine());                  //Set deposit amount
+                Console.WriteLine("Current Balance: {0}", Balance);
+                Deposit = double.Parse(Console.ReadLine());                  //Set deposit amount
             }
             catch (NotFiniteNumberException)
             {

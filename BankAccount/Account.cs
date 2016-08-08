@@ -68,6 +68,7 @@ namespace BankAccount
             try                        //try block makes sure number is entered by user
             {
                 Console.WriteLine("How much would you like to deposit?");
+                Console.WriteLine("Current Balance: {0}", Balance);
                 Deposit = double.Parse(Console.ReadLine());                  //Set deposit amount
             }
             catch (NotFiniteNumberException)

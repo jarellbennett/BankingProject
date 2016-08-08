@@ -57,8 +57,8 @@ namespace BankAccount
                         StringBuilder ezio = new StringBuilder();
                         ezio.Append("Which account would you like to view?");
                         ezio.Append('\n'+"1.Checking");
-                        ezio.Append("2.Savings");
-                        ezio.Append("3.Reserve");
+                        ezio.Append(" 2.Savings");
+                        ezio.Append(" 3.Reserve");
                         Console.WriteLine(ezio.ToString());
 
                         choice = int.Parse(Console.ReadLine());            //user input variable choice
@@ -85,8 +85,8 @@ namespace BankAccount
                         StringBuilder grr = new StringBuilder();
                         grr.Append("Which account would you like to withdraw from?");
                         grr.Append('\n' + "1.Checking");
-                        grr.Append("2.Savings");
-                        grr.Append("3.Reserve");
+                        grr.Append(" 2.Savings");
+                        grr.Append(" 3.Reserve");
                         Console.WriteLine(grr.ToString());
                         choice = int.Parse(Console.ReadLine());
 
@@ -114,8 +114,8 @@ namespace BankAccount
                         StringBuilder zim = new StringBuilder();
                         zim.Append("Which account would you like to deposit funds?");
                         zim.Append('\n' + "1.Checking");
-                        zim.Append("2.Savings");
-                        zim.Append("3.Reserve");
+                        zim.Append(" 2.Savings");
+                        zim.Append(" 3.Reserve");
                         Console.WriteLine(zim.ToString());
 
                         choice = int.Parse(Console.ReadLine());

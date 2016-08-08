@@ -1,0 +1,8 @@
+
+Admin: Stewart, John
+Account Number: 55343
+Type: Savings
+Balance Prior: 550
+Withdrawal: -0
+Updated Balance: 550
+

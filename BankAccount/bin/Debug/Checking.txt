@@ -1,0 +1,8 @@
+
+Admin: Townsend, Michael
+Account Number: 55342
+Type: Checking
+Balance Prior: 5085
+Deposit: +0
+Updated Balance: 5085
+
