@@ -31,7 +31,8 @@ namespace BankAccount
 
         public override void depWrite()
         {
-            StreamWriter randy = new StreamWriter("Reserve.txt");
+            FileStream newt = File.OpenWrite(@"C:\Users\WeCanCodeIT\Documents\visual studio 2015\Projects\BankAccount\BankAccount\Reserve.txt");
+            StreamWriter randy = new StreamWriter(newt);
             StringBuilder ramRod = new StringBuilder();
 
             double initial = balance - deposit;
